@@ -1,6 +1,7 @@
 package model.entities;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.Objects;
 
 public class Department implements Serializable {
@@ -17,7 +18,8 @@ public class Department implements Serializable {
 	public Department() {
 		
 	}
-	public Integer getId() {
+
+    public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
